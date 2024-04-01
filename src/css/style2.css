@@ -1,4 +1,8 @@
 
+body{
+    user-select: none;
+}
+
 #name{
     font-family: cursive;
     font-size:medium;
@@ -9,22 +13,42 @@
     width: 50%;
     height: auto;
     border-style: dotted;
-    border: 2px;
+    border: 0px;
     text-align: center;
 }
 
+#valoresTabla{
+    background-color: rgb(228, 224, 19);
 
+}
+
+#cuerpoTabla{
+    background-color:antiquewhite;
+}
 
 #titulo{
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     background-color: rgb(46, 131, 221);
 }
   
-#frmDatosPersonales{
+#frmZapatos{
     text-align: center;
     background-color: aquamarine;
     font-style: oblique;
 }
   
+.btn1{
+    padding: 10px 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+
+}
+.btn1:active{
+    transform: translateY(2px);
+}

@@ -65,8 +65,8 @@ function forQuery(){
 
 let contador = 0;
 //escuchar el formulario
-const frmDatosPersonales = document.getElementById("frmDatosPersonales");
-frmDatosPersonales.addEventListener("submit",function(event){
+const frmZapatos = document.getElementById("frmZapatos");
+frmZapatos.addEventListener("submit",function(event){
     
     //para que se mantengan mostrados los datos
     
@@ -121,7 +121,7 @@ frmDatosPersonales.addEventListener("submit",function(event){
 
     //agregar la fila al cuerpo de la tabla
     document.getElementById("cuerpoTabla").appendChild(fila);
-    document.querySelector("#frmDatosPersonales").reset();
+    document.querySelector("#frmZapatos").reset();
 
 
   
