@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.gq.com.mx/photos/64ff795dd175b7cca062a8dc/16:9/w_2560%2Cc_limit/zapatos-bespoke-que-son-y-como-usar-con-estilo.jpg');
+    background-size: cover;
+    user-select: none; /* Bloquea la selección de texto en navegadores modernos */
+    -webkit-user-select: none; /* Bloquea la selección en navegadores WebKit (Chrome, Safari) */
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    animation: spin 30s linear infinite;
+  }
+  
+  .form-container {
+    background-color: #e2f0ed;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    
+  }
+  .form-container:hover {
+    transform: scale(1.1); /* Zoom al 110% */
+  }
+
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #sesion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  

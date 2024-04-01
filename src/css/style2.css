@@ -1,0 +1,30 @@
+
+#name{
+    font-family: cursive;
+    font-size:medium;
+}
+
+.divByID{
+    background-color: violet;
+    width: 50%;
+    height: auto;
+    border-style: dotted;
+    border: 2px;
+    text-align: center;
+}
+
+
+
+#titulo{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 131, 221);
+}
+  
+#frmDatosPersonales{
+    text-align: center;
+    background-color: aquamarine;
+    font-style: oblique;
+}
+  

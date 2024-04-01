@@ -1,0 +1,134 @@
+ 
+    <!-- CREAR ELEMENTOS HTML-->
+  
+  <!--
+  <br>
+
+  <form id="frmDatosPersonales">
+    <label for="txtNombre">Nombre del usuario:</label>
+    <input type="text" id="txtNombre" name="txtNombre" required>
+
+    <label for="txtNombre">Apellidos:</label>
+    <input type="text" id="txtApellidos" name="txtApellidos" required>
+
+    <label for="txtEdad">Edad:</label>
+    <input type="number" id="txtEdad" name="txtEdad" required>
+
+    
+    <div>
+      <br>
+      <button type="submit"
+      class="btn btn-dark"> Agregar datos</button>
+  </div>
+<br>
+
+  </form>
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/src/css/style2.css">
+  <title>Formulario de Registro de Zapatos</title>
+</head>
+<body>
+  <h1 id="titulo">Registro de Zapatos</h1>
+  <form id="frmDatosPersonales">
+    <!-- Caja de texto para el nombre del zapato -->
+    <label for="nombre" id="Nombre">Nombre del Zapato:</label>
+    <input type="text" id="txtNombre" name="nombre" size="10" required><br>
+
+    <br>
+
+    <label for="color" id="color">Color:</label>
+    <input type="text" id="txtColor" name="color" size="10" required><br>
+
+    <br>
+    <!-- Caja de texto para la marca del zapato -->
+    <label for="marca">Marca</label>
+    <select id="txtMarca" name="marca">
+      <option value="">----
+      <option value="Adidas">Adidas</option>
+      <option value="Nike">Nike</option>
+      <option value="Phirma">Phirma</option>
+      <option value="Charli">Charli</option>
+      <option value="Puma">Puma</option>
+      <option value="Converse">Converse</option>
+      <option value="Vans">Vans</option>
+      <option value="Rebook">Rebook</option>
+    </select><br>
+
+    <br>
+    <!-- Select para el tipo de zapato -->
+    <label for="tipo">Tipo de Zapato:</label>
+    <select id="txtTipoZapato" name="tipo">
+      <option value="">----
+      <option value="Tenis">Tenis</option>
+      <option value="Zapato formal">Zapato Formal</option>
+      <option value="Zapatilla">Zapatilla</option>
+      <option value="Sandalia">Sandalia</option>
+      <option value="Bota">Bota</option>
+      
+    </select><br>
+
+    <br>
+    <!-- Radio para el género -->
+    <label>Género:</label>
+    <input type="radio" id="txtGenero" name="genero" value="Hombre" required>
+    <label for="genero_hombre">Hombre</label>
+    <input type="radio" id="txtGenero" name="genero" value="Mujer">
+    <label for="genero_mujer">Mujer</label>
+    <input type="radio" id="txtGenero" name="genero" value="Unisex">
+    <label for="genero_unisex">Unisex</label><br>
+
+    <br>
+    <!-- Fecha de lanzamiento del zapato -->
+    <label for="fecha_captura">Fecha de captura:</label>
+    <input type="date" id="txtFecha" name="fecha_captura" required><br>
+
+    <br>
+    <!-- Botón de envío del formulario -->
+    <div>
+      <br>
+      <button type="submit"
+      class="btn btn-dark"> Agregar datos</button>
+  </div>
+  <br>
+  </form>
+</body>
+</html>
+
+
+  <div id="valoresTabla">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col1">Numero</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Color</th>
+          <th scope="col">Marca</th>
+          <th scope="col">TipoZapato</th>
+          <th scope="col">Genero</th>
+          <th scope="col">Fecha</th>
+          <!-- campo de acciones-->
+          <th scope="col">Acciones </th>
+        </tr>
+      </thead>
+      <tbody id="cuerpoTabla">
+
+      </tbody>
+    </table>
+
+  </div>
+
+    
+
+    <script src="/src/js/dom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
